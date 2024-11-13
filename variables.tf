@@ -15,5 +15,5 @@ variable "subnet_cidr_blocks" {
 
 variable "availability_zones" {
   description = "List of availability zones"
-  default     = ["us-west-2a", "us-west-2b"]
+  default     = ["us-east-1a", "us-east-1b"]
 }
